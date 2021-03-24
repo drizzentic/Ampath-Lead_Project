@@ -113,7 +113,7 @@ const LowestRanking = (props) => {
         )}
         {blank && !loading && <Alert severity='info'>{blank}</Alert>}
       </CardContent>
-      {open && <ViewMore handleClose={handleClose} products={selectedValue} />}
+      {open && <ViewMore handleClose={handleClose} products={selectedValue} type="current"/>}
       <CardActions className={classes.actions}>
         {open ? (
           <Button color='primary' size='small' variant='text' onClick={() => handleClose()}>

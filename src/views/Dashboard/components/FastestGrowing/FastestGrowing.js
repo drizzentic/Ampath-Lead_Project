@@ -102,7 +102,7 @@ const FastestGrowing = (props) => {
         {blank && !loading && <Alert severity='info'>{blank}</Alert>}
       </CardContent>
       {open && (
-        <ViewMore handleClose={handleClose} products={selectedValue}/>
+        <ViewMore handleClose={handleClose} products={selectedValue} type="percentage_change"/>
       )}
       <CardActions className={classes.actions}>
         {open ? (

@@ -102,7 +102,7 @@ const HighestRanking = (props) => {
         {blank && !loading && <Alert severity='info'>{blank}</Alert>}
       </CardContent>
       {open && (
-        <ViewMore handleClose={handleClose} products={selectedValue}/>
+        <ViewMore handleClose={handleClose} products={selectedValue} type="current"/>
       )}
       <CardActions className={classes.actions}>
         {open ? (
