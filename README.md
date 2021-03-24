@@ -3,8 +3,6 @@ Brandlift dashboard
 
 ## Quick start
 
-- Run this command in your terminal `docker-compose up`
-
 - Clone the repo: `git clone https://github.com/drizzentic/mdundo-frontend.git`
 
 - Make sure your NodeJS and npm versions are up to date for `React 16.8.6`
