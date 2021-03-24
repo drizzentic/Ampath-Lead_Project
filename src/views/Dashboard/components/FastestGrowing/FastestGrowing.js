@@ -87,7 +87,7 @@ const FastestGrowing = (props) => {
                 {[...products].slice(0,5).map((product, key) => (
                   <TableRow hover key={product.product_service + key}>
                     <TableCell>{product.product_service}</TableCell>
-                    <TableCell align='right'>{product.last_30days.toFixed(2) || 0}%</TableCell>
+                    <TableCell align='right'>{product.percentage_change.toFixed(2) || 0}%</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
